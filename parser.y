@@ -26,10 +26,26 @@ linea:
     ;
 
 expresion:
+      expr_or
+    ;
+
+expr_or:
+      expr_and
+    | expr_or OR_OP expr_and
+    ;
+
+expr_and:
+      expr_pipe
+    | expr_and AND_OP expr_pipe
+    ;
+
+expr_pipe:
+      expr_primary
+    | expr_pipe PIPE expr_primary
+    ;
+
+expr_primary:
       comando
-    | expresion PIPE expresion
-    | expresion AND_OP expresion
-    | expresion OR_OP expresion
     | LPAREN expresion RPAREN
     ;
 
