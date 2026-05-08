@@ -54,35 +54,49 @@ extern int yydebug;
     YYEOF = 0,                     /* "end of file"  */
     YYerror = 256,                 /* error  */
     YYUNDEF = 257,                 /* "invalid token"  */
-    CMD_LISTAR = 258,              /* CMD_LISTAR  */
-    CMD_AYUDA = 259,               /* CMD_AYUDA  */
-    CMD_COPIAR = 260,              /* CMD_COPIAR  */
-    CMD_MOVER = 261,               /* CMD_MOVER  */
-    CMD_BORRAR = 262,              /* CMD_BORRAR  */
-    CMD_SALIR = 263,               /* CMD_SALIR  */
-    ARCHIVO = 264,                 /* ARCHIVO  */
-    RUTA_WIN = 265,                /* RUTA_WIN  */
-    CADENA = 266,                  /* CADENA  */
-    VAR_WIN = 267,                 /* VAR_WIN  */
-    VAR_UNIX = 268,                /* VAR_UNIX  */
-    BANDERA_CORTA = 269,           /* BANDERA_CORTA  */
-    BANDERA_LARGA = 270,           /* BANDERA_LARGA  */
-    PIPE = 271,                    /* PIPE  */
-    REDIR_OUT = 272,               /* REDIR_OUT  */
-    REDIR_APPEND = 273,            /* REDIR_APPEND  */
-    AND_OP = 274,                  /* AND_OP  */
-    OR_OP = 275,                   /* OR_OP  */
-    LPAREN = 276,                  /* LPAREN  */
-    RPAREN = 277,                  /* RPAREN  */
-    EOL = 278,                     /* EOL  */
-    INVALID = 279                  /* INVALID  */
+    ARCHIVO = 258,                 /* ARCHIVO  */
+    RUTA_WIN = 259,                /* RUTA_WIN  */
+    CADENA = 260,                  /* CADENA  */
+    VAR_WIN = 261,                 /* VAR_WIN  */
+    VAR_UNIX = 262,                /* VAR_UNIX  */
+    BANDERA_CORTA = 263,           /* BANDERA_CORTA  */
+    BANDERA_LARGA = 264,           /* BANDERA_LARGA  */
+    CMD_LISTAR = 265,              /* CMD_LISTAR  */
+    CMD_AYUDA = 266,               /* CMD_AYUDA  */
+    CMD_COPIAR = 267,              /* CMD_COPIAR  */
+    CMD_MOVER = 268,               /* CMD_MOVER  */
+    CMD_BORRAR = 269,              /* CMD_BORRAR  */
+    CMD_SALIR = 270,               /* CMD_SALIR  */
+    CMD_CREAR = 271,               /* CMD_CREAR  */
+    CMD_ENTRAR = 272,              /* CMD_ENTRAR  */
+    CMD_VER = 273,                 /* CMD_VER  */
+    CMD_LIMPIAR = 274,             /* CMD_LIMPIAR  */
+    CMD_DONDE = 275,               /* CMD_DONDE  */
+    PIPE = 276,                    /* PIPE  */
+    REDIR_OUT = 277,               /* REDIR_OUT  */
+    REDIR_APPEND = 278,            /* REDIR_APPEND  */
+    AND_OP = 279,                  /* AND_OP  */
+    OR_OP = 280,                   /* OR_OP  */
+    LPAREN = 281,                  /* LPAREN  */
+    RPAREN = 282,                  /* RPAREN  */
+    EOL = 283,                     /* EOL  */
+    INVALID = 284                  /* INVALID  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
-typedef int YYSTYPE;
+union YYSTYPE
+{
+#line 12 "parser.y"
+
+    char *string;
+
+#line 97 "parser.tab.h"
+
+};
+typedef union YYSTYPE YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
 #endif
