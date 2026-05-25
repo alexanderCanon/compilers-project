@@ -23,6 +23,8 @@ CADENA          \"[^\"]*\"
 VAR_WIN         %[a-zA-Z_][a-zA-Z0-9_]*%
 VAR_UNIX        \$[a-zA-Z_][a-zA-Z0-9_]*
 
+
+
 IMPRIMIR        imprimir
 SI              si
 MIENTRAS        mientras
@@ -32,37 +34,6 @@ ENTRAR          entrar
 VER             ver
 LIMPIAR         limpiar
 DONDE           donde
-RENOMBRAR       renombrar
-FECHA           fecha
-HORA            hora
-ECO             eco
-ARBOL           arbol
-VOLUMEN         volumen
-VERSION         version
-SISTEMA         sistema
-TAREAS          tareas
-MATAR           matar
-PAUSA           pausa
-COLOR           color
-TITULO          titulo
-ATRIB           atrib
-COMPARAR        comparar
-COMPACTAR       compactar
-CONVERTIR       convertir
-FORMATEAR       formatear
-ETIQUETA        etiqueta
-RUTA            ruta
-RECUPERAR       recuperar
-REEMPLAZAR      reemplazar
-ORDENAR         ordenar
-APAGAR          apagar
-INICIAR         iniciar
-ASOCIAR         asociar
-CLIMA           clima
-QUIENSOY        quiensoy
-RED             red
-PINGUINO        pinguino
-TIEMPO          tiempo
 
 PIPE            "|"
 REDIR_OUT       ">"
@@ -71,6 +42,7 @@ AND_OP          "&&"
 OR_OP           "||"
 LPAREN          "("
 RPAREN          ")"
+
 
 ESPACIO           [ ]
 ENTRADA          \n
@@ -89,38 +61,6 @@ TODO           .
 {VER}           { return CMD_VER; }
 {LIMPIAR}       { return CMD_LIMPIAR; }
 {DONDE}         { return CMD_DONDE; }
-{RENOMBRAR}     { return CMD_RENOMBRAR; }
-{FECHA}         { return CMD_FECHA; }
-{HORA}          { return CMD_HORA; }
-{ECO}           { return CMD_ECO; }
-{ARBOL}         { return CMD_ARBOL; }
-{VOLUMEN}       { return CMD_VOLUMEN; }
-{VERSION}       { return CMD_VERSION; }
-{SISTEMA}       { return CMD_SISTEMA; }
-{TAREAS}        { return CMD_TAREAS; }
-{MATAR}         { return CMD_MATAR; }
-{PAUSA}         { return CMD_PAUSA; }
-{COLOR}         { return CMD_COLOR; }
-{TITULO}        { return CMD_TITULO; }
-{ATRIB}         { return CMD_ATRIB; }
-{COMPARAR}      { return CMD_COMPARAR; }
-{COMPACTAR}     { return CMD_COMPACTAR; }
-{CONVERTIR}     { return CMD_CONVERTIR; }
-{FORMATEAR}     { return CMD_FORMATEAR; }
-{ETIQUETA}      { return CMD_ETIQUETA; }
-{RUTA}          { return CMD_RUTA; }
-{IMPRIMIR}      { return CMD_IMPRIMIR; }
-{RECUPERAR}     { return CMD_RECUPERAR; }
-{REEMPLAZAR}    { return CMD_REEMPLAZAR; }
-{ORDENAR}       { return CMD_ORDENAR; }
-{APAGAR}        { return CMD_APAGAR; }
-{INICIAR}       { return CMD_INICIAR; }
-{ASOCIAR}       { return CMD_ASOCIAR; }
-{CLIMA}         { return CMD_CLIMA; }
-{QUIENSOY}      { return CMD_QUIENSOY; }
-{RED}           { return CMD_RED; }
-{PINGUINO}      { return CMD_PINGUINO; }
-{TIEMPO}        { return CMD_TIEMPO; }
 
 {REDIR_APPEND}  { return REDIR_APPEND; }
 {AND_OP}        { return AND_OP; }
@@ -145,3 +85,10 @@ TODO           .
 {TODO}           { return INVALID; }
 
 %%
+
+/* int main(int argc, char **argv)
+{
+    yylex();
+    return 0;
+} */
+

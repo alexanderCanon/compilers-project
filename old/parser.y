@@ -17,13 +17,6 @@ void yyerror(const char *s);
 %token <string> BANDERA_CORTA BANDERA_LARGA
 %token CMD_LISTAR CMD_AYUDA CMD_COPIAR CMD_MOVER CMD_BORRAR CMD_SALIR
 %token CMD_CREAR CMD_ENTRAR CMD_VER CMD_LIMPIAR CMD_DONDE
-%token CMD_RENOMBRAR CMD_FECHA CMD_HORA CMD_ECO CMD_ARBOL
-%token CMD_VOLUMEN CMD_VERSION CMD_SISTEMA CMD_TAREAS CMD_MATAR
-%token CMD_PAUSA CMD_COLOR CMD_TITULO CMD_ATRIB CMD_COMPARAR
-%token CMD_COMPACTAR CMD_CONVERTIR CMD_FORMATEAR CMD_ETIQUETA
-%token CMD_RUTA CMD_IMPRIMIR CMD_RECUPERAR CMD_REEMPLAZAR
-%token CMD_ORDENAR CMD_APAGAR CMD_INICIAR CMD_ASOCIAR
-%token CMD_CLIMA CMD_QUIENSOY CMD_RED CMD_PINGUINO CMD_TIEMPO
 %token PIPE REDIR_OUT REDIR_APPEND AND_OP OR_OP
 %token LPAREN RPAREN
 %token EOL
@@ -83,38 +76,6 @@ comando_simple:
     | CMD_VER lista_argumentos       { ejecutar_ver($2); }
     | CMD_LIMPIAR lista_argumentos_opt { ejecutar_limpiar(); }
     | CMD_DONDE lista_argumentos_opt  { ejecutar_donde(); }
-    | CMD_RENOMBRAR lista_argumentos { ejecutar_renombrar($2); }
-    | CMD_FECHA lista_argumentos_opt { ejecutar_fecha(); }
-    | CMD_HORA lista_argumentos_opt { ejecutar_hora(); }
-    | CMD_ECO lista_argumentos { ejecutar_eco($2); }
-    | CMD_ARBOL lista_argumentos_opt { ejecutar_arbol(); }
-    | CMD_VOLUMEN lista_argumentos_opt { ejecutar_volumen(); }
-    | CMD_VERSION lista_argumentos_opt { ejecutar_version(); }
-    | CMD_SISTEMA lista_argumentos_opt { ejecutar_sistema(); }
-    | CMD_TAREAS lista_argumentos_opt { ejecutar_tareas(); }
-    | CMD_MATAR lista_argumentos { ejecutar_matar($2); }
-    | CMD_PAUSA lista_argumentos_opt { ejecutar_pausa(); }
-    | CMD_COLOR lista_argumentos { ejecutar_color($2); }
-    | CMD_TITULO lista_argumentos { ejecutar_titulo($2); }
-    | CMD_ATRIB lista_argumentos_opt { ejecutar_atrib(); }
-    | CMD_COMPARAR lista_argumentos { ejecutar_comparar($2); }
-    | CMD_COMPACTAR lista_argumentos_opt { ejecutar_compactar(); }
-    | CMD_CONVERTIR lista_argumentos { ejecutar_convertir($2); }
-    | CMD_FORMATEAR lista_argumentos { ejecutar_formatear($2); }
-    | CMD_ETIQUETA lista_argumentos { ejecutar_etiqueta($2); }
-    | CMD_RUTA lista_argumentos_opt { ejecutar_ruta(); }
-    | CMD_IMPRIMIR lista_argumentos { ejecutar_imprimir($2); }
-    | CMD_RECUPERAR lista_argumentos { ejecutar_recuperar($2); }
-    | CMD_REEMPLAZAR lista_argumentos { ejecutar_reemplazar($2); }
-    | CMD_ORDENAR lista_argumentos_opt { ejecutar_ordenar(); }
-    | CMD_APAGAR lista_argumentos_opt { ejecutar_apagar(); }
-    | CMD_INICIAR lista_argumentos { ejecutar_iniciar($2); }
-    | CMD_ASOCIAR lista_argumentos_opt { ejecutar_asociar(); }
-    | CMD_CLIMA lista_argumentos_opt { ejecutar_clima(); }
-    | CMD_QUIENSOY lista_argumentos_opt { ejecutar_quiensoy(); }
-    | CMD_RED lista_argumentos_opt { ejecutar_red(); }
-    | CMD_PINGUINO lista_argumentos { ejecutar_pinguino($2); }
-    | CMD_TIEMPO lista_argumentos_opt { ejecutar_tiempo(); }
     ;
 
 lista_argumentos_opt:

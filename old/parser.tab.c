@@ -127,62 +127,30 @@ enum yysymbol_kind_t
   YYSYMBOL_CMD_VER = 18,                   /* CMD_VER  */
   YYSYMBOL_CMD_LIMPIAR = 19,               /* CMD_LIMPIAR  */
   YYSYMBOL_CMD_DONDE = 20,                 /* CMD_DONDE  */
-  YYSYMBOL_CMD_RENOMBRAR = 21,             /* CMD_RENOMBRAR  */
-  YYSYMBOL_CMD_FECHA = 22,                 /* CMD_FECHA  */
-  YYSYMBOL_CMD_HORA = 23,                  /* CMD_HORA  */
-  YYSYMBOL_CMD_ECO = 24,                   /* CMD_ECO  */
-  YYSYMBOL_CMD_ARBOL = 25,                 /* CMD_ARBOL  */
-  YYSYMBOL_CMD_VOLUMEN = 26,               /* CMD_VOLUMEN  */
-  YYSYMBOL_CMD_VERSION = 27,               /* CMD_VERSION  */
-  YYSYMBOL_CMD_SISTEMA = 28,               /* CMD_SISTEMA  */
-  YYSYMBOL_CMD_TAREAS = 29,                /* CMD_TAREAS  */
-  YYSYMBOL_CMD_MATAR = 30,                 /* CMD_MATAR  */
-  YYSYMBOL_CMD_PAUSA = 31,                 /* CMD_PAUSA  */
-  YYSYMBOL_CMD_COLOR = 32,                 /* CMD_COLOR  */
-  YYSYMBOL_CMD_TITULO = 33,                /* CMD_TITULO  */
-  YYSYMBOL_CMD_ATRIB = 34,                 /* CMD_ATRIB  */
-  YYSYMBOL_CMD_COMPARAR = 35,              /* CMD_COMPARAR  */
-  YYSYMBOL_CMD_COMPACTAR = 36,             /* CMD_COMPACTAR  */
-  YYSYMBOL_CMD_CONVERTIR = 37,             /* CMD_CONVERTIR  */
-  YYSYMBOL_CMD_FORMATEAR = 38,             /* CMD_FORMATEAR  */
-  YYSYMBOL_CMD_ETIQUETA = 39,              /* CMD_ETIQUETA  */
-  YYSYMBOL_CMD_RUTA = 40,                  /* CMD_RUTA  */
-  YYSYMBOL_CMD_IMPRIMIR = 41,              /* CMD_IMPRIMIR  */
-  YYSYMBOL_CMD_RECUPERAR = 42,             /* CMD_RECUPERAR  */
-  YYSYMBOL_CMD_REEMPLAZAR = 43,            /* CMD_REEMPLAZAR  */
-  YYSYMBOL_CMD_ORDENAR = 44,               /* CMD_ORDENAR  */
-  YYSYMBOL_CMD_APAGAR = 45,                /* CMD_APAGAR  */
-  YYSYMBOL_CMD_INICIAR = 46,               /* CMD_INICIAR  */
-  YYSYMBOL_CMD_ASOCIAR = 47,               /* CMD_ASOCIAR  */
-  YYSYMBOL_CMD_CLIMA = 48,                 /* CMD_CLIMA  */
-  YYSYMBOL_CMD_QUIENSOY = 49,              /* CMD_QUIENSOY  */
-  YYSYMBOL_CMD_RED = 50,                   /* CMD_RED  */
-  YYSYMBOL_CMD_PINGUINO = 51,              /* CMD_PINGUINO  */
-  YYSYMBOL_CMD_TIEMPO = 52,                /* CMD_TIEMPO  */
-  YYSYMBOL_PIPE = 53,                      /* PIPE  */
-  YYSYMBOL_REDIR_OUT = 54,                 /* REDIR_OUT  */
-  YYSYMBOL_REDIR_APPEND = 55,              /* REDIR_APPEND  */
-  YYSYMBOL_AND_OP = 56,                    /* AND_OP  */
-  YYSYMBOL_OR_OP = 57,                     /* OR_OP  */
-  YYSYMBOL_LPAREN = 58,                    /* LPAREN  */
-  YYSYMBOL_RPAREN = 59,                    /* RPAREN  */
-  YYSYMBOL_EOL = 60,                       /* EOL  */
-  YYSYMBOL_INVALID = 61,                   /* INVALID  */
-  YYSYMBOL_YYACCEPT = 62,                  /* $accept  */
-  YYSYMBOL_input = 63,                     /* input  */
-  YYSYMBOL_linea = 64,                     /* linea  */
-  YYSYMBOL_expresion = 65,                 /* expresion  */
-  YYSYMBOL_expr_or = 66,                   /* expr_or  */
-  YYSYMBOL_expr_and = 67,                  /* expr_and  */
-  YYSYMBOL_expr_pipe = 68,                 /* expr_pipe  */
-  YYSYMBOL_expr_primary = 69,              /* expr_primary  */
-  YYSYMBOL_comando = 70,                   /* comando  */
-  YYSYMBOL_comando_simple = 71,            /* comando_simple  */
-  YYSYMBOL_lista_argumentos_opt = 72,      /* lista_argumentos_opt  */
-  YYSYMBOL_lista_argumentos = 73,          /* lista_argumentos  */
-  YYSYMBOL_argumento = 74,                 /* argumento  */
-  YYSYMBOL_redireccion = 75,               /* redireccion  */
-  YYSYMBOL_argumento_archivo = 76          /* argumento_archivo  */
+  YYSYMBOL_PIPE = 21,                      /* PIPE  */
+  YYSYMBOL_REDIR_OUT = 22,                 /* REDIR_OUT  */
+  YYSYMBOL_REDIR_APPEND = 23,              /* REDIR_APPEND  */
+  YYSYMBOL_AND_OP = 24,                    /* AND_OP  */
+  YYSYMBOL_OR_OP = 25,                     /* OR_OP  */
+  YYSYMBOL_LPAREN = 26,                    /* LPAREN  */
+  YYSYMBOL_RPAREN = 27,                    /* RPAREN  */
+  YYSYMBOL_EOL = 28,                       /* EOL  */
+  YYSYMBOL_INVALID = 29,                   /* INVALID  */
+  YYSYMBOL_YYACCEPT = 30,                  /* $accept  */
+  YYSYMBOL_input = 31,                     /* input  */
+  YYSYMBOL_linea = 32,                     /* linea  */
+  YYSYMBOL_expresion = 33,                 /* expresion  */
+  YYSYMBOL_expr_or = 34,                   /* expr_or  */
+  YYSYMBOL_expr_and = 35,                  /* expr_and  */
+  YYSYMBOL_expr_pipe = 36,                 /* expr_pipe  */
+  YYSYMBOL_expr_primary = 37,              /* expr_primary  */
+  YYSYMBOL_comando = 38,                   /* comando  */
+  YYSYMBOL_comando_simple = 39,            /* comando_simple  */
+  YYSYMBOL_lista_argumentos_opt = 40,      /* lista_argumentos_opt  */
+  YYSYMBOL_lista_argumentos = 41,          /* lista_argumentos  */
+  YYSYMBOL_argumento = 42,                 /* argumento  */
+  YYSYMBOL_redireccion = 43,               /* redireccion  */
+  YYSYMBOL_argumento_archivo = 44          /* argumento_archivo  */
 };
 typedef enum yysymbol_kind_t yysymbol_kind_t;
 
@@ -510,19 +478,19 @@ union yyalloc
 /* YYFINAL -- State number of the termination state.  */
 #define YYFINAL  2
 /* YYLAST -- Last index in YYTABLE.  */
-#define YYLAST   223
+#define YYLAST   65
 
 /* YYNTOKENS -- Number of terminals.  */
-#define YYNTOKENS  62
+#define YYNTOKENS  30
 /* YYNNTS -- Number of nonterminals.  */
 #define YYNNTS  15
 /* YYNRULES -- Number of rules.  */
-#define YYNRULES  75
+#define YYNRULES  43
 /* YYNSTATES -- Number of states.  */
-#define YYNSTATES  126
+#define YYNSTATES  62
 
 /* YYMAXUTOK -- Last valid token kind.  */
-#define YYMAXUTOK   316
+#define YYMAXUTOK   284
 
 
 /* YYTRANSLATE(TOKEN-NUM) -- Symbol number corresponding to TOKEN-NUM
@@ -564,24 +532,18 @@ static const yytype_int8 yytranslate[] =
        2,     2,     2,     2,     2,     2,     1,     2,     3,     4,
        5,     6,     7,     8,     9,    10,    11,    12,    13,    14,
       15,    16,    17,    18,    19,    20,    21,    22,    23,    24,
-      25,    26,    27,    28,    29,    30,    31,    32,    33,    34,
-      35,    36,    37,    38,    39,    40,    41,    42,    43,    44,
-      45,    46,    47,    48,    49,    50,    51,    52,    53,    54,
-      55,    56,    57,    58,    59,    60,    61
+      25,    26,    27,    28,    29
 };
 
 #if YYDEBUG
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
-static const yytype_uint8 yyrline[] =
+static const yytype_int8 yyrline[] =
 {
-       0,    36,    36,    37,    41,    42,    46,    50,    51,    55,
-      56,    60,    61,    65,    66,    70,    71,    75,    76,    77,
-      78,    79,    80,    81,    82,    83,    84,    85,    86,    87,
-      88,    89,    90,    91,    92,    93,    94,    95,    96,    97,
-      98,    99,   100,   101,   102,   103,   104,   105,   106,   107,
-     108,   109,   110,   111,   112,   113,   114,   115,   116,   117,
-     121,   122,   126,   127,   135,   136,   137,   138,   139,   140,
-     141,   145,   146,   150,   151,   152
+       0,    29,    29,    30,    34,    35,    39,    43,    44,    48,
+      49,    53,    54,    58,    59,    63,    64,    68,    69,    70,
+      71,    72,    73,    74,    75,    76,    77,    78,    82,    83,
+      87,    88,    96,    97,    98,    99,   100,   101,   102,   106,
+     107,   111,   112,   113
 };
 #endif
 
@@ -601,14 +563,7 @@ static const char *const yytname[] =
   "CADENA", "VAR_WIN", "VAR_UNIX", "BANDERA_CORTA", "BANDERA_LARGA",
   "CMD_LISTAR", "CMD_AYUDA", "CMD_COPIAR", "CMD_MOVER", "CMD_BORRAR",
   "CMD_SALIR", "CMD_CREAR", "CMD_ENTRAR", "CMD_VER", "CMD_LIMPIAR",
-  "CMD_DONDE", "CMD_RENOMBRAR", "CMD_FECHA", "CMD_HORA", "CMD_ECO",
-  "CMD_ARBOL", "CMD_VOLUMEN", "CMD_VERSION", "CMD_SISTEMA", "CMD_TAREAS",
-  "CMD_MATAR", "CMD_PAUSA", "CMD_COLOR", "CMD_TITULO", "CMD_ATRIB",
-  "CMD_COMPARAR", "CMD_COMPACTAR", "CMD_CONVERTIR", "CMD_FORMATEAR",
-  "CMD_ETIQUETA", "CMD_RUTA", "CMD_IMPRIMIR", "CMD_RECUPERAR",
-  "CMD_REEMPLAZAR", "CMD_ORDENAR", "CMD_APAGAR", "CMD_INICIAR",
-  "CMD_ASOCIAR", "CMD_CLIMA", "CMD_QUIENSOY", "CMD_RED", "CMD_PINGUINO",
-  "CMD_TIEMPO", "PIPE", "REDIR_OUT", "REDIR_APPEND", "AND_OP", "OR_OP",
+  "CMD_DONDE", "PIPE", "REDIR_OUT", "REDIR_APPEND", "AND_OP", "OR_OP",
   "LPAREN", "RPAREN", "EOL", "INVALID", "$accept", "input", "linea",
   "expresion", "expr_or", "expr_and", "expr_pipe", "expr_primary",
   "comando", "comando_simple", "lista_argumentos_opt", "lista_argumentos",
@@ -622,7 +577,7 @@ yysymbol_name (yysymbol_kind_t yysymbol)
 }
 #endif
 
-#define YYPACT_NINF (-47)
+#define YYPACT_NINF (-15)
 
 #define yypact_value_is_default(Yyn) \
   ((Yyn) == YYPACT_NINF)
@@ -636,19 +591,13 @@ yysymbol_name (yysymbol_kind_t yysymbol)
    STATE-NUM.  */
 static const yytype_int8 yypact[] =
 {
-     -47,     0,   -47,    -2,    -2,    -2,    -2,    -2,    -2,    -2,
-      -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,
-      -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,
-      -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,    -2,
-      -2,    -2,    -2,    -2,    -2,    -2,    51,   -47,   -47,    -4,
-       2,     1,    52,   -47,   -47,   -46,   -47,   -47,   -47,   -47,
-     -47,   -47,   -47,   -47,    -2,   -47,   -47,    -2,    -2,    -2,
-     -47,    -2,    -2,    -2,   -47,   -47,    -2,   -47,   -47,    -2,
-     -47,   -47,   -47,   -47,   -47,    -2,   -47,    -2,    -2,   -47,
-      -2,   -47,    -2,    -2,    -2,   -47,    -2,    -2,    -2,   -47,
-     -47,    -2,   -47,   -47,   -47,   -47,    -2,   -47,    45,   -47,
-      51,    51,    51,    50,    50,   -47,   -47,   -47,     1,    52,
-     -47,   -47,   -47,   -47,   -47,   -47
+     -15,     0,   -15,    -2,    -2,    -2,    -2,    -2,    -2,    -2,
+      -2,    -2,    -2,    -2,    19,   -15,   -15,    -4,     2,     1,
+      20,   -15,   -15,   -14,   -15,   -15,   -15,   -15,   -15,   -15,
+     -15,   -15,    -2,   -15,   -15,    -2,    -2,    -2,   -15,    -2,
+      -2,    -2,   -15,   -15,    13,   -15,    19,    19,    19,    18,
+      18,   -15,   -15,   -15,     1,    20,   -15,   -15,   -15,   -15,
+     -15,   -15
 };
 
 /* YYDEFACT[STATE-NUM] -- Default reduction number in state STATE-NUM.
@@ -656,33 +605,27 @@ static const yytype_int8 yypact[] =
    means the default is an error.  */
 static const yytype_int8 yydefact[] =
 {
-       2,     0,     1,    60,    60,     0,     0,     0,    60,     0,
-       0,     0,    60,    60,     0,    60,    60,     0,    60,    60,
-      60,    60,    60,     0,    60,     0,     0,    60,     0,    60,
-       0,     0,     0,    60,     0,     0,     0,    60,    60,     0,
-      60,    60,    60,    60,     0,    60,     0,     5,     3,     0,
-       6,     7,     9,    11,    13,    15,    64,    65,    66,    67,
-      68,    69,    70,    17,    61,    62,    18,    20,    21,    22,
-      19,    23,    24,    25,    26,    27,    28,    29,    30,    31,
-      32,    33,    34,    35,    36,    37,    38,    39,    40,    41,
-      42,    43,    44,    45,    46,    47,    48,    49,    50,    51,
-      52,    53,    54,    55,    56,    57,    58,    59,     0,     4,
-       0,     0,     0,     0,     0,    16,    63,    14,     8,    10,
-      12,    73,    74,    75,    71,    72
+       2,     0,     1,    28,    28,     0,     0,     0,    28,     0,
+       0,     0,    28,    28,     0,     5,     3,     0,     6,     7,
+       9,    11,    13,    15,    32,    33,    34,    35,    36,    37,
+      38,    17,    29,    30,    18,    20,    21,    22,    19,    23,
+      24,    25,    26,    27,     0,     4,     0,     0,     0,     0,
+       0,    16,    31,    14,     8,    10,    12,    41,    42,    43,
+      39,    40
 };
 
 /* YYPGOTO[NTERM-NUM].  */
-static const yytype_int16 yypgoto[] =
+static const yytype_int8 yypgoto[] =
 {
-     -47,   -47,   -47,    60,   -47,     3,    -3,     5,   -47,   -47,
-     138,   179,    43,   -47,     4
+     -15,   -15,   -15,    28,   -15,     8,    -3,     7,   -15,   -15,
+      45,    54,    11,   -15,     6
 };
 
 /* YYDEFGOTO[NTERM-NUM].  */
 static const yytype_int8 yydefgoto[] =
 {
-       0,     1,    48,    49,    50,    51,    52,    53,    54,    55,
-      63,    64,    65,   115,   124
+       0,     1,    16,    17,    18,    19,    20,    21,    22,    23,
+      31,    32,    33,    51,    60
 };
 
 /* YYTABLE[YYPACT[STATE-NUM]] -- What to do in state STATE-NUM.  If
@@ -690,88 +633,47 @@ static const yytype_int8 yydefgoto[] =
    number is the opposite.  If YYTABLE_NINF, syntax error.  */
 static const yytype_int8 yytable[] =
 {
-       2,    56,    57,    58,    59,    60,    61,    62,   113,   114,
+       2,    24,    25,    26,    27,    28,    29,    30,    49,    50,
        3,     4,     5,     6,     7,     8,     9,    10,    11,    12,
-      13,    14,    15,    16,    17,    18,    19,    20,    21,    22,
-      23,    24,    25,    26,    27,    28,    29,    30,    31,    32,
-      33,    34,    35,    36,    37,    38,    39,    40,    41,    42,
-      43,    44,    45,   121,   122,   123,   109,   111,    46,   110,
-      47,     3,     4,     5,     6,     7,     8,     9,    10,    11,
-      12,    13,    14,    15,    16,    17,    18,    19,    20,    21,
-      22,    23,    24,    25,    26,    27,    28,    29,    30,    31,
-      32,    33,    34,    35,    36,    37,    38,    39,    40,    41,
-      42,    43,    44,    45,   117,   112,   108,   116,   119,    46,
-     116,   116,   116,   118,   116,   116,   116,   120,   125,   116,
-       0,     0,   116,     0,     0,     0,     0,     0,   116,     0,
-     116,   116,     0,   116,     0,   116,   116,   116,     0,   116,
-     116,   116,    66,     0,   116,     0,    70,     0,     0,   116,
-      74,    75,     0,    77,    78,     0,    80,    81,    82,    83,
-      84,     0,    86,     0,     0,    89,     0,    91,     0,     0,
-       0,    95,     0,     0,     0,    99,   100,     0,   102,   103,
-     104,   105,     0,   107,    67,    68,    69,     0,    71,    72,
-      73,     0,     0,    76,     0,     0,    79,     0,     0,     0,
-       0,     0,    85,     0,    87,    88,     0,    90,     0,    92,
-      93,    94,     0,    96,    97,    98,     0,     0,   101,     0,
-       0,     0,     0,   106
+      13,    57,    58,    59,    45,    47,    14,    46,    15,     3,
+       4,     5,     6,     7,     8,     9,    10,    11,    12,    13,
+      53,    48,    44,    52,    55,    14,    52,    52,    52,    34,
+      52,    52,    52,    38,    54,    56,    61,    42,    43,    35,
+      36,    37,     0,    39,    40,    41
 };
 
 static const yytype_int8 yycheck[] =
 {
-       0,     3,     4,     5,     6,     7,     8,     9,    54,    55,
+       0,     3,     4,     5,     6,     7,     8,     9,    22,    23,
       10,    11,    12,    13,    14,    15,    16,    17,    18,    19,
-      20,    21,    22,    23,    24,    25,    26,    27,    28,    29,
-      30,    31,    32,    33,    34,    35,    36,    37,    38,    39,
-      40,    41,    42,    43,    44,    45,    46,    47,    48,    49,
-      50,    51,    52,     3,     4,     5,    60,    56,    58,    57,
-      60,    10,    11,    12,    13,    14,    15,    16,    17,    18,
-      19,    20,    21,    22,    23,    24,    25,    26,    27,    28,
-      29,    30,    31,    32,    33,    34,    35,    36,    37,    38,
-      39,    40,    41,    42,    43,    44,    45,    46,    47,    48,
-      49,    50,    51,    52,    59,    53,    46,    64,   111,    58,
-      67,    68,    69,   110,    71,    72,    73,   112,   114,    76,
-      -1,    -1,    79,    -1,    -1,    -1,    -1,    -1,    85,    -1,
-      87,    88,    -1,    90,    -1,    92,    93,    94,    -1,    96,
-      97,    98,     4,    -1,   101,    -1,     8,    -1,    -1,   106,
-      12,    13,    -1,    15,    16,    -1,    18,    19,    20,    21,
-      22,    -1,    24,    -1,    -1,    27,    -1,    29,    -1,    -1,
-      -1,    33,    -1,    -1,    -1,    37,    38,    -1,    40,    41,
-      42,    43,    -1,    45,     5,     6,     7,    -1,     9,    10,
-      11,    -1,    -1,    14,    -1,    -1,    17,    -1,    -1,    -1,
-      -1,    -1,    23,    -1,    25,    26,    -1,    28,    -1,    30,
-      31,    32,    -1,    34,    35,    36,    -1,    -1,    39,    -1,
-      -1,    -1,    -1,    44
+      20,     3,     4,     5,    28,    24,    26,    25,    28,    10,
+      11,    12,    13,    14,    15,    16,    17,    18,    19,    20,
+      27,    21,    14,    32,    47,    26,    35,    36,    37,     4,
+      39,    40,    41,     8,    46,    48,    50,    12,    13,     5,
+       6,     7,    -1,     9,    10,    11
 };
 
 /* YYSTOS[STATE-NUM] -- The symbol kind of the accessing symbol of
    state STATE-NUM.  */
 static const yytype_int8 yystos[] =
 {
-       0,    63,     0,    10,    11,    12,    13,    14,    15,    16,
-      17,    18,    19,    20,    21,    22,    23,    24,    25,    26,
-      27,    28,    29,    30,    31,    32,    33,    34,    35,    36,
-      37,    38,    39,    40,    41,    42,    43,    44,    45,    46,
-      47,    48,    49,    50,    51,    52,    58,    60,    64,    65,
-      66,    67,    68,    69,    70,    71,     3,     4,     5,     6,
-       7,     8,     9,    72,    73,    74,    72,    73,    73,    73,
-      72,    73,    73,    73,    72,    72,    73,    72,    72,    73,
-      72,    72,    72,    72,    72,    73,    72,    73,    73,    72,
-      73,    72,    73,    73,    73,    72,    73,    73,    73,    72,
-      72,    73,    72,    72,    72,    72,    73,    72,    65,    60,
-      57,    56,    53,    54,    55,    75,    74,    59,    67,    68,
-      69,     3,     4,     5,    76,    76
+       0,    31,     0,    10,    11,    12,    13,    14,    15,    16,
+      17,    18,    19,    20,    26,    28,    32,    33,    34,    35,
+      36,    37,    38,    39,     3,     4,     5,     6,     7,     8,
+       9,    40,    41,    42,    40,    41,    41,    41,    40,    41,
+      41,    41,    40,    40,    33,    28,    25,    24,    21,    22,
+      23,    43,    42,    27,    35,    36,    37,     3,     4,     5,
+      44,    44
 };
 
 /* YYR1[RULE-NUM] -- Symbol kind of the left-hand side of rule RULE-NUM.  */
 static const yytype_int8 yyr1[] =
 {
-       0,    62,    63,    63,    64,    64,    65,    66,    66,    67,
-      67,    68,    68,    69,    69,    70,    70,    71,    71,    71,
-      71,    71,    71,    71,    71,    71,    71,    71,    71,    71,
-      71,    71,    71,    71,    71,    71,    71,    71,    71,    71,
-      71,    71,    71,    71,    71,    71,    71,    71,    71,    71,
-      71,    71,    71,    71,    71,    71,    71,    71,    71,    71,
-      72,    72,    73,    73,    74,    74,    74,    74,    74,    74,
-      74,    75,    75,    76,    76,    76
+       0,    30,    31,    31,    32,    32,    33,    34,    34,    35,
+      35,    36,    36,    37,    37,    38,    38,    39,    39,    39,
+      39,    39,    39,    39,    39,    39,    39,    39,    40,    40,
+      41,    41,    42,    42,    42,    42,    42,    42,    42,    43,
+      43,    44,    44,    44
 };
 
 /* YYR2[RULE-NUM] -- Number of symbols on the right-hand side of rule RULE-NUM.  */
@@ -779,12 +681,9 @@ static const yytype_int8 yyr2[] =
 {
        0,     2,     0,     2,     2,     1,     1,     1,     3,     1,
        3,     1,     3,     1,     3,     1,     2,     2,     2,     2,
-       2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
-       2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
-       2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
-       2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
-       0,     1,     1,     2,     1,     1,     1,     1,     1,     1,
-       1,     2,     2,     1,     1,     1
+       2,     2,     2,     2,     2,     2,     2,     2,     0,     1,
+       1,     2,     1,     1,     1,     1,     1,     1,     1,     2,
+       2,     1,     1,     1
 };
 
 
@@ -1248,347 +1147,155 @@ yyreduce:
   switch (yyn)
     {
   case 4: /* linea: expresion EOL  */
-#line 41 "parser.y"
+#line 34 "parser.y"
                     { imprimir_prompt(); }
-#line 1254 "parser.tab.c"
+#line 1153 "parser.tab.c"
     break;
 
   case 5: /* linea: EOL  */
-#line 42 "parser.y"
+#line 35 "parser.y"
                     { imprimir_prompt(); }
-#line 1260 "parser.tab.c"
+#line 1159 "parser.tab.c"
     break;
 
   case 17: /* comando_simple: CMD_LISTAR lista_argumentos_opt  */
-#line 75 "parser.y"
+#line 68 "parser.y"
                                       { ejecutar_listar((yyvsp[0].string)); }
-#line 1266 "parser.tab.c"
+#line 1165 "parser.tab.c"
     break;
 
   case 18: /* comando_simple: CMD_AYUDA lista_argumentos_opt  */
-#line 76 "parser.y"
+#line 69 "parser.y"
                                       { ejecutar_ayuda(); }
-#line 1272 "parser.tab.c"
+#line 1171 "parser.tab.c"
     break;
 
   case 19: /* comando_simple: CMD_SALIR lista_argumentos_opt  */
-#line 77 "parser.y"
+#line 70 "parser.y"
                                       { ejecutar_salir(); }
-#line 1278 "parser.tab.c"
+#line 1177 "parser.tab.c"
     break;
 
   case 20: /* comando_simple: CMD_COPIAR lista_argumentos  */
-#line 78 "parser.y"
+#line 71 "parser.y"
                                      { ejecutar_copiar((yyvsp[0].string)); }
-#line 1284 "parser.tab.c"
+#line 1183 "parser.tab.c"
     break;
 
   case 21: /* comando_simple: CMD_MOVER lista_argumentos  */
-#line 79 "parser.y"
+#line 72 "parser.y"
                                      { ejecutar_mover((yyvsp[0].string)); }
-#line 1290 "parser.tab.c"
+#line 1189 "parser.tab.c"
     break;
 
   case 22: /* comando_simple: CMD_BORRAR lista_argumentos  */
-#line 80 "parser.y"
+#line 73 "parser.y"
                                      { ejecutar_borrar((yyvsp[0].string)); }
-#line 1296 "parser.tab.c"
+#line 1195 "parser.tab.c"
     break;
 
   case 23: /* comando_simple: CMD_CREAR lista_argumentos  */
-#line 81 "parser.y"
+#line 74 "parser.y"
                                      { ejecutar_crear((yyvsp[0].string)); }
-#line 1302 "parser.tab.c"
+#line 1201 "parser.tab.c"
     break;
 
   case 24: /* comando_simple: CMD_ENTRAR lista_argumentos  */
-#line 82 "parser.y"
+#line 75 "parser.y"
                                      { ejecutar_entrar((yyvsp[0].string)); }
-#line 1308 "parser.tab.c"
+#line 1207 "parser.tab.c"
     break;
 
   case 25: /* comando_simple: CMD_VER lista_argumentos  */
-#line 83 "parser.y"
+#line 76 "parser.y"
                                      { ejecutar_ver((yyvsp[0].string)); }
-#line 1314 "parser.tab.c"
+#line 1213 "parser.tab.c"
     break;
 
   case 26: /* comando_simple: CMD_LIMPIAR lista_argumentos_opt  */
-#line 84 "parser.y"
+#line 77 "parser.y"
                                        { ejecutar_limpiar(); }
-#line 1320 "parser.tab.c"
+#line 1219 "parser.tab.c"
     break;
 
   case 27: /* comando_simple: CMD_DONDE lista_argumentos_opt  */
-#line 85 "parser.y"
+#line 78 "parser.y"
                                       { ejecutar_donde(); }
-#line 1326 "parser.tab.c"
+#line 1225 "parser.tab.c"
     break;
 
-  case 28: /* comando_simple: CMD_RENOMBRAR lista_argumentos  */
-#line 86 "parser.y"
-                                     { ejecutar_renombrar((yyvsp[0].string)); }
-#line 1332 "parser.tab.c"
-    break;
-
-  case 29: /* comando_simple: CMD_FECHA lista_argumentos_opt  */
-#line 87 "parser.y"
-                                     { ejecutar_fecha(); }
-#line 1338 "parser.tab.c"
-    break;
-
-  case 30: /* comando_simple: CMD_HORA lista_argumentos_opt  */
-#line 88 "parser.y"
-                                    { ejecutar_hora(); }
-#line 1344 "parser.tab.c"
-    break;
-
-  case 31: /* comando_simple: CMD_ECO lista_argumentos  */
-#line 89 "parser.y"
-                               { ejecutar_eco((yyvsp[0].string)); }
-#line 1350 "parser.tab.c"
-    break;
-
-  case 32: /* comando_simple: CMD_ARBOL lista_argumentos_opt  */
-#line 90 "parser.y"
-                                     { ejecutar_arbol(); }
-#line 1356 "parser.tab.c"
-    break;
-
-  case 33: /* comando_simple: CMD_VOLUMEN lista_argumentos_opt  */
-#line 91 "parser.y"
-                                       { ejecutar_volumen(); }
-#line 1362 "parser.tab.c"
-    break;
-
-  case 34: /* comando_simple: CMD_VERSION lista_argumentos_opt  */
-#line 92 "parser.y"
-                                       { ejecutar_version(); }
-#line 1368 "parser.tab.c"
-    break;
-
-  case 35: /* comando_simple: CMD_SISTEMA lista_argumentos_opt  */
-#line 93 "parser.y"
-                                       { ejecutar_sistema(); }
-#line 1374 "parser.tab.c"
-    break;
-
-  case 36: /* comando_simple: CMD_TAREAS lista_argumentos_opt  */
-#line 94 "parser.y"
-                                      { ejecutar_tareas(); }
-#line 1380 "parser.tab.c"
-    break;
-
-  case 37: /* comando_simple: CMD_MATAR lista_argumentos  */
-#line 95 "parser.y"
-                                 { ejecutar_matar((yyvsp[0].string)); }
-#line 1386 "parser.tab.c"
-    break;
-
-  case 38: /* comando_simple: CMD_PAUSA lista_argumentos_opt  */
-#line 96 "parser.y"
-                                     { ejecutar_pausa(); }
-#line 1392 "parser.tab.c"
-    break;
-
-  case 39: /* comando_simple: CMD_COLOR lista_argumentos  */
-#line 97 "parser.y"
-                                 { ejecutar_color((yyvsp[0].string)); }
-#line 1398 "parser.tab.c"
-    break;
-
-  case 40: /* comando_simple: CMD_TITULO lista_argumentos  */
-#line 98 "parser.y"
-                                  { ejecutar_titulo((yyvsp[0].string)); }
-#line 1404 "parser.tab.c"
-    break;
-
-  case 41: /* comando_simple: CMD_ATRIB lista_argumentos_opt  */
-#line 99 "parser.y"
-                                     { ejecutar_atrib(); }
-#line 1410 "parser.tab.c"
-    break;
-
-  case 42: /* comando_simple: CMD_COMPARAR lista_argumentos  */
-#line 100 "parser.y"
-                                    { ejecutar_comparar((yyvsp[0].string)); }
-#line 1416 "parser.tab.c"
-    break;
-
-  case 43: /* comando_simple: CMD_COMPACTAR lista_argumentos_opt  */
-#line 101 "parser.y"
-                                         { ejecutar_compactar(); }
-#line 1422 "parser.tab.c"
-    break;
-
-  case 44: /* comando_simple: CMD_CONVERTIR lista_argumentos  */
-#line 102 "parser.y"
-                                     { ejecutar_convertir((yyvsp[0].string)); }
-#line 1428 "parser.tab.c"
-    break;
-
-  case 45: /* comando_simple: CMD_FORMATEAR lista_argumentos  */
-#line 103 "parser.y"
-                                     { ejecutar_formatear((yyvsp[0].string)); }
-#line 1434 "parser.tab.c"
-    break;
-
-  case 46: /* comando_simple: CMD_ETIQUETA lista_argumentos  */
-#line 104 "parser.y"
-                                    { ejecutar_etiqueta((yyvsp[0].string)); }
-#line 1440 "parser.tab.c"
-    break;
-
-  case 47: /* comando_simple: CMD_RUTA lista_argumentos_opt  */
-#line 105 "parser.y"
-                                    { ejecutar_ruta(); }
-#line 1446 "parser.tab.c"
-    break;
-
-  case 48: /* comando_simple: CMD_IMPRIMIR lista_argumentos  */
-#line 106 "parser.y"
-                                    { ejecutar_imprimir((yyvsp[0].string)); }
-#line 1452 "parser.tab.c"
-    break;
-
-  case 49: /* comando_simple: CMD_RECUPERAR lista_argumentos  */
-#line 107 "parser.y"
-                                     { ejecutar_recuperar((yyvsp[0].string)); }
-#line 1458 "parser.tab.c"
-    break;
-
-  case 50: /* comando_simple: CMD_REEMPLAZAR lista_argumentos  */
-#line 108 "parser.y"
-                                      { ejecutar_reemplazar((yyvsp[0].string)); }
-#line 1464 "parser.tab.c"
-    break;
-
-  case 51: /* comando_simple: CMD_ORDENAR lista_argumentos_opt  */
-#line 109 "parser.y"
-                                       { ejecutar_ordenar(); }
-#line 1470 "parser.tab.c"
-    break;
-
-  case 52: /* comando_simple: CMD_APAGAR lista_argumentos_opt  */
-#line 110 "parser.y"
-                                      { ejecutar_apagar(); }
-#line 1476 "parser.tab.c"
-    break;
-
-  case 53: /* comando_simple: CMD_INICIAR lista_argumentos  */
-#line 111 "parser.y"
-                                   { ejecutar_iniciar((yyvsp[0].string)); }
-#line 1482 "parser.tab.c"
-    break;
-
-  case 54: /* comando_simple: CMD_ASOCIAR lista_argumentos_opt  */
-#line 112 "parser.y"
-                                       { ejecutar_asociar(); }
-#line 1488 "parser.tab.c"
-    break;
-
-  case 55: /* comando_simple: CMD_CLIMA lista_argumentos_opt  */
-#line 113 "parser.y"
-                                     { ejecutar_clima(); }
-#line 1494 "parser.tab.c"
-    break;
-
-  case 56: /* comando_simple: CMD_QUIENSOY lista_argumentos_opt  */
-#line 114 "parser.y"
-                                        { ejecutar_quiensoy(); }
-#line 1500 "parser.tab.c"
-    break;
-
-  case 57: /* comando_simple: CMD_RED lista_argumentos_opt  */
-#line 115 "parser.y"
-                                   { ejecutar_red(); }
-#line 1506 "parser.tab.c"
-    break;
-
-  case 58: /* comando_simple: CMD_PINGUINO lista_argumentos  */
-#line 116 "parser.y"
-                                    { ejecutar_pinguino((yyvsp[0].string)); }
-#line 1512 "parser.tab.c"
-    break;
-
-  case 59: /* comando_simple: CMD_TIEMPO lista_argumentos_opt  */
-#line 117 "parser.y"
-                                      { ejecutar_tiempo(); }
-#line 1518 "parser.tab.c"
-    break;
-
-  case 60: /* lista_argumentos_opt: %empty  */
-#line 121 "parser.y"
+  case 28: /* lista_argumentos_opt: %empty  */
+#line 82 "parser.y"
                    { (yyval.string) = ""; }
-#line 1524 "parser.tab.c"
+#line 1231 "parser.tab.c"
     break;
 
-  case 61: /* lista_argumentos_opt: lista_argumentos  */
-#line 122 "parser.y"
+  case 29: /* lista_argumentos_opt: lista_argumentos  */
+#line 83 "parser.y"
                        { (yyval.string) = (yyvsp[0].string); }
-#line 1530 "parser.tab.c"
+#line 1237 "parser.tab.c"
     break;
 
-  case 62: /* lista_argumentos: argumento  */
-#line 126 "parser.y"
+  case 30: /* lista_argumentos: argumento  */
+#line 87 "parser.y"
                 { (yyval.string) = (yyvsp[0].string); }
-#line 1536 "parser.tab.c"
+#line 1243 "parser.tab.c"
     break;
 
-  case 63: /* lista_argumentos: lista_argumentos argumento  */
-#line 127 "parser.y"
+  case 31: /* lista_argumentos: lista_argumentos argumento  */
+#line 88 "parser.y"
                                  { 
         char *res = malloc(strlen((yyvsp[-1].string)) + strlen((yyvsp[0].string)) + 2);
         sprintf(res, "%s %s", (yyvsp[-1].string), (yyvsp[0].string));
         (yyval.string) = res;
     }
-#line 1546 "parser.tab.c"
+#line 1253 "parser.tab.c"
     break;
 
-  case 64: /* argumento: ARCHIVO  */
-#line 135 "parser.y"
+  case 32: /* argumento: ARCHIVO  */
+#line 96 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1552 "parser.tab.c"
+#line 1259 "parser.tab.c"
     break;
 
-  case 65: /* argumento: RUTA_WIN  */
-#line 136 "parser.y"
+  case 33: /* argumento: RUTA_WIN  */
+#line 97 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1558 "parser.tab.c"
+#line 1265 "parser.tab.c"
     break;
 
-  case 66: /* argumento: CADENA  */
-#line 137 "parser.y"
+  case 34: /* argumento: CADENA  */
+#line 98 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1564 "parser.tab.c"
+#line 1271 "parser.tab.c"
     break;
 
-  case 67: /* argumento: VAR_WIN  */
-#line 138 "parser.y"
+  case 35: /* argumento: VAR_WIN  */
+#line 99 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1570 "parser.tab.c"
+#line 1277 "parser.tab.c"
     break;
 
-  case 68: /* argumento: VAR_UNIX  */
-#line 139 "parser.y"
+  case 36: /* argumento: VAR_UNIX  */
+#line 100 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1576 "parser.tab.c"
+#line 1283 "parser.tab.c"
     break;
 
-  case 69: /* argumento: BANDERA_CORTA  */
-#line 140 "parser.y"
+  case 37: /* argumento: BANDERA_CORTA  */
+#line 101 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1582 "parser.tab.c"
+#line 1289 "parser.tab.c"
     break;
 
-  case 70: /* argumento: BANDERA_LARGA  */
-#line 141 "parser.y"
+  case 38: /* argumento: BANDERA_LARGA  */
+#line 102 "parser.y"
                     { (yyval.string) = (yyvsp[0].string); }
-#line 1588 "parser.tab.c"
+#line 1295 "parser.tab.c"
     break;
 
 
-#line 1592 "parser.tab.c"
+#line 1299 "parser.tab.c"
 
       default: break;
     }
@@ -1781,7 +1488,7 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 155 "parser.y"
+#line 116 "parser.y"
 
 
 void yyerror(const char *s) {

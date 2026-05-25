@@ -1,0 +1,29 @@
+=========================================
+      MANUAL DE USUARIO: ALEXER CLI
+=========================================
+
+Alexer CLI es una interfaz de comandos 
+construida con Flex y Bison.
+
+COMANDOS DISPONIBLES:
+-----------------------------------------
+- listar [ruta]      : Lista archivos.
+- copiar [origen] [destino]: Copia archivos.
+- mover [origen] [destino] : Mueve/Renombra.
+- borrar [ruta]      : Elimina archivos/carpetas.
+- crear [nombre]     : Crea una carpeta.
+- entrar [ruta]      : Cambia de directorio.
+- ver [archivo]      : Muestra contenido.
+- limpiar            : Limpia la pantalla.
+- donde              : Muestra la ruta actual.
+- ayuda              : Muestra esta ayuda.
+- salir / quitar     : Cierra la sesión.
+
+SINTAXIS DE RUTAS:
+-----------------------------------------
+- Windows: C:\Carpeta\Archivo.txt
+- Linux: /home/usuario/archivo
+- Relativas: ./archivo.txt o ../carpeta
+
+Desarrollado como Proyecto Final de Compiladores.
+=========================================

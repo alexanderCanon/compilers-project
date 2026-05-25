@@ -72,47 +72,15 @@ extern int yydebug;
     CMD_VER = 273,                 /* CMD_VER  */
     CMD_LIMPIAR = 274,             /* CMD_LIMPIAR  */
     CMD_DONDE = 275,               /* CMD_DONDE  */
-    CMD_RENOMBRAR = 276,           /* CMD_RENOMBRAR  */
-    CMD_FECHA = 277,               /* CMD_FECHA  */
-    CMD_HORA = 278,                /* CMD_HORA  */
-    CMD_ECO = 279,                 /* CMD_ECO  */
-    CMD_ARBOL = 280,               /* CMD_ARBOL  */
-    CMD_VOLUMEN = 281,             /* CMD_VOLUMEN  */
-    CMD_VERSION = 282,             /* CMD_VERSION  */
-    CMD_SISTEMA = 283,             /* CMD_SISTEMA  */
-    CMD_TAREAS = 284,              /* CMD_TAREAS  */
-    CMD_MATAR = 285,               /* CMD_MATAR  */
-    CMD_PAUSA = 286,               /* CMD_PAUSA  */
-    CMD_COLOR = 287,               /* CMD_COLOR  */
-    CMD_TITULO = 288,              /* CMD_TITULO  */
-    CMD_ATRIB = 289,               /* CMD_ATRIB  */
-    CMD_COMPARAR = 290,            /* CMD_COMPARAR  */
-    CMD_COMPACTAR = 291,           /* CMD_COMPACTAR  */
-    CMD_CONVERTIR = 292,           /* CMD_CONVERTIR  */
-    CMD_FORMATEAR = 293,           /* CMD_FORMATEAR  */
-    CMD_ETIQUETA = 294,            /* CMD_ETIQUETA  */
-    CMD_RUTA = 295,                /* CMD_RUTA  */
-    CMD_IMPRIMIR = 296,            /* CMD_IMPRIMIR  */
-    CMD_RECUPERAR = 297,           /* CMD_RECUPERAR  */
-    CMD_REEMPLAZAR = 298,          /* CMD_REEMPLAZAR  */
-    CMD_ORDENAR = 299,             /* CMD_ORDENAR  */
-    CMD_APAGAR = 300,              /* CMD_APAGAR  */
-    CMD_INICIAR = 301,             /* CMD_INICIAR  */
-    CMD_ASOCIAR = 302,             /* CMD_ASOCIAR  */
-    CMD_CLIMA = 303,               /* CMD_CLIMA  */
-    CMD_QUIENSOY = 304,            /* CMD_QUIENSOY  */
-    CMD_RED = 305,                 /* CMD_RED  */
-    CMD_PINGUINO = 306,            /* CMD_PINGUINO  */
-    CMD_TIEMPO = 307,              /* CMD_TIEMPO  */
-    PIPE = 308,                    /* PIPE  */
-    REDIR_OUT = 309,               /* REDIR_OUT  */
-    REDIR_APPEND = 310,            /* REDIR_APPEND  */
-    AND_OP = 311,                  /* AND_OP  */
-    OR_OP = 312,                   /* OR_OP  */
-    LPAREN = 313,                  /* LPAREN  */
-    RPAREN = 314,                  /* RPAREN  */
-    EOL = 315,                     /* EOL  */
-    INVALID = 316                  /* INVALID  */
+    PIPE = 276,                    /* PIPE  */
+    REDIR_OUT = 277,               /* REDIR_OUT  */
+    REDIR_APPEND = 278,            /* REDIR_APPEND  */
+    AND_OP = 279,                  /* AND_OP  */
+    OR_OP = 280,                   /* OR_OP  */
+    LPAREN = 281,                  /* LPAREN  */
+    RPAREN = 282,                  /* RPAREN  */
+    EOL = 283,                     /* EOL  */
+    INVALID = 284                  /* INVALID  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
@@ -125,7 +93,7 @@ union YYSTYPE
 
     char *string;
 
-#line 129 "parser.tab.h"
+#line 97 "parser.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;
